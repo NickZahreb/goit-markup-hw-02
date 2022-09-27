@@ -103,6 +103,8 @@ a {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+
+  cursor: pointer;
 }
 /* Section */
 .section-title {
@@ -160,14 +162,38 @@ a {
 /* Product */
 .product-list .title {
   color: var(--title-text-color);
+
+  /* font-weight: 700; */
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
 }
 .product-list .description {
   color: var(--primery-text-color);
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
 }
 /* Filter list btn */
 .filter-list .btn {
   background-color: var(--background-btn);
   color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* identical to box height, or 162% */
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
 }
 .filter-list .btn:hover,
 .filter-list .btn:focus {
